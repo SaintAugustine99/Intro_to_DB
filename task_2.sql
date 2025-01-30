@@ -31,9 +31,9 @@ CREATE TABLE IF NOT EXISTS Books (
 
 CREATE TABLE IF NOT EXISTS Customers (
     customer_name INT AUTO_INCREMENT PRIMARY KEY,
-    first_name VARCHAR(100) NOT NULL,
+    first_name VARCHAR(215) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
-    email VARCHAR(255) UNIQUE NOT NULL,
+    email VARCHAR(215) UNIQUE NOT NULL,
     phone_number VARCHAR(20),
     address VARCHAR(255),
     city VARCHAR(100),
